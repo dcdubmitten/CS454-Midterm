@@ -1,0 +1,8 @@
+node_modules
+.git
+*.log
+.env
+test
+README.md
+deployment-planning.md
+openstack-plan.md

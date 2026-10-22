@@ -1,0 +1,9 @@
+services:
+  web:
+    image: cs454-midterm:1.0
+    environment:
+      PORT: "8080"
+      SERVICE_NAME: "compose-web"
+      MESSAGE: "Hello from Docker Compose"
+    ports:
+      - "8080:8080"
